@@ -1,7 +1,6 @@
 const wrap = new Swiper('#wrap',{
     direction:'vertical',
     mousewheel:true,
-    loop:true,
 })
 const project1 = new Swiper('#project_swiper',{
     scrollbar:{el:'#project_swiper~.swiper-scrollbar'},

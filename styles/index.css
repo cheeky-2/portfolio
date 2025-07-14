@@ -30,8 +30,8 @@ header nav a:last-child {margin-right:0px;}
 #wrap .swiper-wrapper .profile .container .photo_info {width:321px; margin:auto 0;}
 #wrap .swiper-wrapper .profile .container .photo_info img {width:180px; margin-bottom:50px;}
 #wrap .swiper-wrapper .profile .container .photo_info .info {}
-#wrap .swiper-wrapper .profile .container .photo_info .info li:first-child {margin-bottom:50px;}
-#wrap .swiper-wrapper .profile .container .photo_info .info li {margin-bottom:31px;}
+#wrap .swiper-wrapper .profile .container .photo_info .info li:first-child {margin-bottom:50px; font-size:1.5rem; font-weight:700;}
+#wrap .swiper-wrapper .profile .container .photo_info .info li {margin-bottom:31px; font-size:1.063rem; font-weight:500;}
 #wrap .swiper-wrapper .profile .container .photo_info .info li:last-child {margin-bottom:0px;}
 #wrap .swiper-wrapper .profile .container .resume {width:519px;}
 #wrap .swiper-wrapper .profile .container .resume .career1 {}

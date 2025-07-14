@@ -1,0 +1,73 @@
+header {position:fixed; top:0; left:0; background-color:rgba(255,255,255,0.8); width:100%; height:60px; z-index:900;}
+header nav {}
+header nav a {}
+header p {}
+#wrap {
+    height:100vh;
+}
+#wrap .swiper-wrapper {}
+#wrap .swiper-wrapper .intro {
+    background-color:#FFF2E0;
+    display:flex; flex-flow:column nowrap; 
+    justify-content:center; align-items:center; 
+    text-align:center;
+}
+#wrap .swiper-wrapper .profile {background-color:#C0C9EE;}
+#wrap .swiper-wrapper .project {background-color:#A2AADB;}
+#wrap .swiper-wrapper .contact {background-color:#898AC4;}
+/* 1행 */
+#wrap .swiper-wrapper .intro h1 {font-size:4rem;}
+#wrap .swiper-wrapper .intro h1 em {font-size:2rem;}
+#wrap .swiper-wrapper .intro h2 {margin:20px 0 0;}
+#wrap .swiper-wrapper .intro p {line-height:1.7;}
+/* 2행 */
+#wrap .swiper-wrapper .profile .container {
+    width:1000px; margin:90px auto 0;
+    display:flex; justify-content:space-between;
+    background-color:rgba(255,255,255,0.5); height:85vh;
+    padding:40px; border-radius:25px;
+}
+#wrap .swiper-wrapper .profile .container .photo_info {width:40%;}
+#wrap .swiper-wrapper .profile .container .photo_info img {}
+#wrap .swiper-wrapper .profile .container .photo_info .info {}
+#wrap .swiper-wrapper .profile .container .photo_info .info li {}
+#wrap .swiper-wrapper .profile .container .resume {width:60%;}
+#wrap .swiper-wrapper .profile .container .resume .career1 {}
+#wrap .swiper-wrapper .profile .container .resume ul {margin:0 0 50px;}
+#wrap .swiper-wrapper .profile .container .resume ul li {border-bottom:2px solid #000; padding:10px 5px; display:flex;}
+#wrap .swiper-wrapper .profile .container .resume ul li span {width:100px; font-weight:600;}
+#wrap .swiper-wrapper .profile .container .resume ul li em {line-height:1.5;}
+#wrap .swiper-wrapper .profile .container .resume .career1 li {}
+#wrap .swiper-wrapper .profile .container .resume .career1 li span {}
+#wrap .swiper-wrapper .profile .container .resume .career1 li em {}
+#wrap .swiper-wrapper .profile .container .resume .career2 {}
+#wrap .swiper-wrapper .profile .container .resume .career2 li {}
+#wrap .swiper-wrapper .profile .container .resume .skill {}
+#wrap .swiper-wrapper .profile .container .resume .skill  li {}
+#wrap .swiper-wrapper .profile .container .resume .skill  li span {}
+#wrap .swiper-wrapper .profile .container .resume .skill  li em {}
+/* 3행 */
+#wrap .swiper-wrapper .project {}
+#wrap .swiper-wrapper .project .container {
+    width:1000px; margin:90px auto 0px;
+    background:aqua;
+    padding:80px 0;
+    position:relative;
+}
+#wrap .swiper-wrapper .project .container #project_swiper {
+    border:2px solid #000; 
+    height:500px;
+    width:800px;
+}
+/* 4행 */
+#wrap .swiper-wrapper .design .container {width:1000px; margin:90px auto; padding:20px; background-color:aqua;}
+#wrap .swiper-wrapper .design .container h2 {}
+#wrap .swiper-wrapper .design .container h2+p {}
+#wrap .swiper-wrapper .design .container #sns_swiper {width:800px; margin:50px auto 0; height:200px;}
+#wrap .swiper-wrapper .design .container #sns_swiper .swiper-wrapper {transition-timing-function: linear;}
+#wrap .swiper-wrapper .design .container #sns_swiper .swiper-slide {cursor:pointer;}
+#wrap .swiper-wrapper .design .container #sns_swiper .swiper-slide:hover {transform:rotate(5deg)}
+#wrap .swiper-wrapper .design .container #sns_swiper .swiper-slide img {width:100%;}
+.popup_bg {background-color:rgba(0,0,0,0.5); width:100%; height:100vh; position:fixed; top:0; left:0; z-index:500; display:none;}
+.popup_bg .popup {width:700px; height:80vh; margin:90px auto; overflow:auto;}
+.popup_bg .popup img {width:100%;}

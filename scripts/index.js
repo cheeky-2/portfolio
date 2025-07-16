@@ -59,13 +59,18 @@ nav.forEach((obj, idx)=>{
     })
 })
 const menuBtn = document.querySelector('nav button');
+const menu = document.getElementsByClassName('menu_btn')
+console.log(menu)
 for(let i of nav){
-    menuBtn.addEventListener('click',()=>{
-        /* if(i.style.opacity = 0){
+    i.style.opacity = 1;
+menuBtn.addEventListener('click',()=>{
+        if(i.style.opacity == 1){
+            i.style.opacity = 0;
+            i.style.pointerEvents = 'none';
+        }else{
             i.style.opacity = 1;
-            i.style = 'pointer-events:none';
-            i.style.transition = 'all 1s';
-        } */
+            i.style.pointerEvents = 'auto';
+        }
     })
 }
 const descriptions = document.querySelectorAll('.skill li em');

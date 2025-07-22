@@ -52,7 +52,6 @@ const nav = document.querySelectorAll('nav a');
 // 수직 스와이프 이동 함수
 //수직스와이프변수명.slideTop(이동인덱스값, 지속시간)
 nav.forEach((obj, idx)=>{
-    console.log(obj, idx);
     obj.addEventListener('click',(e)=>{
         e.preventDefault(); //a의 href기본기능막기
         wrap.slideTo(idx, 1000)
@@ -60,7 +59,6 @@ nav.forEach((obj, idx)=>{
 })
 const menuBtn = document.querySelector('nav button');
 const menu = document.getElementsByClassName('menu_btn')
-console.log(menu)
 for(let i of nav){
     i.style.opacity = 1;
 menuBtn.addEventListener('click',()=>{
@@ -84,3 +82,10 @@ descriptionsIcon.forEach((obj, idx)=>{
         }
     })
 })
+const noneProjectClick = document.querySelectorAll('#project_swiper .swiper-wrapper .swiper-slide');
+for(let i = 2; i<4; i++){
+    noneProjectClick[i].children[0].children[1].children[6].children[0].addEventListener('click',function(e){
+        alert('아직 제작중이라 페이지가 없습니다.');
+        e.preventDefault();
+    })
+}

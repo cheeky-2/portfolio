@@ -89,16 +89,16 @@ header nav a:last-child {margin-right:0px;}
 #wrap .swiper-wrapper .design .container h2 {font-size:2.25rem; font-weight:700; color:#fff;}
 #wrap .swiper-wrapper .design .container .contents {display:flex; align-items:center;}
 #wrap .swiper-wrapper .design .container .contents .sns_bnr {margin-right:102px;}
-#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper {width:960px; margin-bottom:40px; height:120px;}
-#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-wrapper {transition-timing-function: linear;}
-#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-slide {cursor:pointer; overflow:hidden; border-radius:10px;}
-#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-slide:hover {transform:rotate(5deg);}
-#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-slide img {height:100%;}
-#wrap .swiper-wrapper .design .container .contents .sns_bnr #bnr_swiper {width:960px; height:360px;}
+#wrap .swiper-wrapper .design .container .contents .sns_bnr #bnr_swiper {width:960px; height:100px;  margin-bottom:40px;}
 #wrap .swiper-wrapper .design .container .contents .sns_bnr #bnr_swiper .swiper-wrapper {transition-timing-function: linear;}
 #wrap .swiper-wrapper .design .container .contents .sns_bnr #bnr_swiper .swiper-slide {cursor:pointer; overflow:hidden; border-radius:10px;}
 #wrap .swiper-wrapper .design .container .contents .sns_bnr #bnr_swiper .swiper-slide:hover {transform:rotate(5deg);}
 #wrap .swiper-wrapper .design .container .contents .sns_bnr #bnr_swiper .swiper-slide img {width:100%;}
+#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper {width:860px; height:360px;}
+#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-wrapper {transition-timing-function: linear;}
+#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-slide {cursor:pointer; overflow:hidden; border-radius:10px;}
+#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-slide:hover {transform:rotate(5deg);}
+#wrap .swiper-wrapper .design .container .contents .sns_bnr #sns_swiper .swiper-slide img {height:100%;}
 #wrap .swiper-wrapper .design .container .contents #detail_swiper {width:340px; height:650px;}
 #wrap .swiper-wrapper .design .container .contents #detail_swiper .swiper-wrapper {transition-timing-function: linear;}
 #wrap .swiper-wrapper .design .container .contents #detail_swiper .swiper-slide {cursor:pointer; overflow:hidden; border-radius:10px;}

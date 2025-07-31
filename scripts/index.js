@@ -14,14 +14,14 @@ const snsSwiper = new Swiper('#sns_swiper',{
     slidesPerView:3,
     spaceBetween:30,
     autoplay:{delay:0,},
-    speed:10000,
+    speed:5000,
     loop:true,
 })
 const bnrSwiper = new Swiper('#bnr_swiper',{
     slidesPerView:3,
     spaceBetween:30,
     autoplay:{delay:0,},
-    speed:20000,
+    speed:10000,
     loop:true,
 })
 const detailSwiper = new Swiper('#detail_swiper',{

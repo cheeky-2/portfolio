@@ -79,7 +79,7 @@ header nav a:last-child {margin-right:0px;}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide .web_project_content .contents li img {margin-right:20px;}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide .web_project_content .contents li img:last-child {margin-right:0px;}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide .web_project_content .contents li a {margin-right:20px; border:1px solid #000; border-radius:20px; padding:16px 20px; font-weight:500; font-size:1.063rem; display:inline-block;}
-#wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide:nth-child(3) .web_project_content .contents li a:first-child {display:none;}
+#wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide:nth-child(3) .web_project_content .contents li a:first-child {}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide:nth-child(4) .web_project_content .contents li a:first-child {display:none;}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide .web_project_content .contents li a:hover {background-color:#333; color:#fff;}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide .web_project_content .contents li a:last-child {margin-right:0px; border:none; font-size:0.938rem; padding:0 0 5px 0; color:#333; border-radius:0;}

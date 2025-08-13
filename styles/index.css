@@ -16,11 +16,15 @@ header nav a:last-child {margin-right:0px;}
 #wrap .swiper-wrapper .project {}
 #wrap .swiper-wrapper .contact {}
 /* 1행 */
-#wrap .swiper-wrapper .intro video {position:absolute; z-index:-1; top:-1000px; left:0; transform:rotate(-90deg); width:100%;}
-#wrap .swiper-wrapper .intro .intro_content {width:max-content; margin:0 auto;}
-#wrap .swiper-wrapper .intro h1 {font-size:6.25rem;}
-#wrap .swiper-wrapper .intro h2 {margin:41px 0 66px; font-size:2rem; font-weight:500;}
-#wrap .swiper-wrapper .intro p {font-size:1.25rem; font-weight:500; text-align:right; color:#fff;}
+/* #wrap .swiper-wrapper .intro .intro_content video {position:absolute; z-index:-1; top:-1000px; left:0; transform:rotate(-90deg); width:100%;} */
+#wrap .swiper-wrapper .intro .intro_content {width:60vw; height:70vh; background-color:#f5f5f5; border-radius:20px; padding:80px; display:flex; flex-flow:column nowrap; position:relative;}
+#wrap .swiper-wrapper .intro .intro_content h1 {font-size:6.25rem; margin-bottom:40px; text-align:center;}
+#wrap .swiper-wrapper .intro .intro_content .job {position:absolute; right:80px; top:60%; transform:translateY(-50%);}
+#wrap .swiper-wrapper .intro .intro_content .job p {margin-bottom:25px; cursor:default; display:flex;}
+#wrap .swiper-wrapper .intro .intro_content .job p::before {content:''; display:block; width:40px; height:40px; background:url(../images/icon/none_light_icon.png) no-repeat center / cover; position:relative; bottom:8px; right:13px;}
+#wrap .swiper-wrapper .intro .intro_content .job p:hover::before {background:url(../images/icon/light_icon.png) no-repeat center / cover;}
+#wrap .swiper-wrapper .intro .intro_content .job p em {font-size:1.75rem; font-weight:600;}
+#wrap .swiper-wrapper .intro .intro_content > P {font-size:1.5rem; font-weight:500; margin-top:auto;}
 /* 2행 */
 #wrap .swiper-wrapper .profile .container {
     width:1301px; margin:100px auto 0;

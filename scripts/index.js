@@ -82,10 +82,10 @@ descriptionsIcon.forEach((obj, idx)=>{
         }
     })
 })
-const noneProjectClick = document.querySelectorAll('#project_swiper .swiper-wrapper .swiper-slide');
+/* const noneProjectClick = document.querySelectorAll('#project_swiper .swiper-wrapper .swiper-slide');
 for(let i = 2; i<4; i++){
     noneProjectClick[i].children[0].children[1].children[6].children[0].addEventListener('click',function(e){
         alert('아직 제작중이라 페이지가 없습니다.');
         e.preventDefault();
     })
-}
+} */

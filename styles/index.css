@@ -63,10 +63,10 @@ header nav a:last-child {margin-right:0px;}
     width:1487px;
     margin-top:44px;
 }
-#wrap .swiper-wrapper .project .container .swiper-button-prev {top:30px; left:500px; background:url(../images/icon/webProject_left_arrow_w.png) no-repeat center / cover; width:36px; height:36px;}
-#wrap .swiper-wrapper .project .container .swiper-button-prev::after {display:none;}
-#wrap .swiper-wrapper .project .container .swiper-button-next {top:30px; right:500px; background:url(../images/icon/webProject_right_arrow_w.png) no-repeat center / cover; width:36px; height:36px;}
-#wrap .swiper-wrapper .project .container .swiper-button-next::after {display:none;}
+#wrap .swiper-wrapper .project .container .swiper-button-prev {top:30px; left:30%; background:url(../images/icon/webProject_left_arrow_w.png) no-repeat center / cover; width:36px; height:36px;}
+#wrap .swiper-wrapper .project .container .swiper-button-prev svg {display:none;}
+#wrap .swiper-wrapper .project .container .swiper-button-next {top:30px; left:70%; background:url(../images/icon/webProject_right_arrow_w.png) no-repeat center / cover; width:36px; height:36px;}
+#wrap .swiper-wrapper .project .container .swiper-button-next svg {display:none;}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper {}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide {}
 #wrap .swiper-wrapper .project .container #project_swiper .swiper-wrapper .swiper-slide .web_project_content {display:flex; flex-flow:row nowrap; justify-content:center; align-items:center; padding:30px;}
